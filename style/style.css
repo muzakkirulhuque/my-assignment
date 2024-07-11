@@ -1,12 +1,21 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+    font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 .future{
     background-image: url(../Hero-bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: cover;
     width: 100%;
-    height: 420px;
-    border-color: solid red;
+    height: 480px;
+    
   
 }
 
@@ -16,9 +25,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
-    border: solid red;
     width: 50%;
     height: 380px;
+
 }
 .dark-2{
     color: #474747;
@@ -32,3 +41,70 @@
     border-radius: 5px;
     border: none;
 }
+.group-content{
+    background-color: rgb(245, 244, 244);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    border-radius: 5px;
+   
+    
+
+}
+.div-group-content{
+    width: 90%;
+    height: 946px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    
+    
+}
+.hedding{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.layer-content{
+    
+    
+   
+}
+.layer-1{
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    border-radius: 12px;
+  
+}
+
+
+
+.super-deals-container {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("../handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .super-deals-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .deals-content p {
+    margin-bottom: 30px;
+  }
+  .deals-content input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
