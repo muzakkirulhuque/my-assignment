@@ -54,7 +54,7 @@ body{
 }
 .div-group-content{
     width: 90%;
-    height: 946px;
+    height: 930px;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -77,14 +77,44 @@ body{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 12px;
   
 }
 
+.section-title{
+
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    width: 90%;
+    margin: 0 auto;
+    
+
+}
+.skill{
+    padding: 30px;
+    width: 30%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.bg-color-1{
+    background-color: rgb(255, 206, 197);
+}
+.bg-color-2{
+    background-color: rgb(210, 255, 240);
+}
+.bg-color-3{
+    background-color: rgb(255, 233, 205);
+}
 
 
-.super-deals-container {
+
+
+.need-support-container{
     width: 90%;
     height: 350px;
     margin: 0 auto;
@@ -93,18 +123,32 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .super-deals-container {
+  .need-support-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
-  .deals-content p {
+  .need-content h1{
+    color: white;
+  }
+
+  .need-content p {
     margin-bottom: 30px;
+    color: white;
   }
-  .deals-content input {
+  .need-content input {
     width: 400px;
     height: 40px;
     border: none;
     border-radius: 2px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  #Submit-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+  }
